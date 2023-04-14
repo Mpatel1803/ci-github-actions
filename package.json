@@ -7,7 +7,7 @@
     "lint": "eslint . --fix",
     "ci:lint": "eslint .",
     "test": "jest --watch",
-    "ci-test": "jest --ci"
+    "ci:test": "jest --ci"
   },
   "keywords": [],
   "author": "",
