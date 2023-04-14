@@ -4,6 +4,5 @@ test('should return damage sentence correctly when called correctly', () => {
   const result = attack('Pikachu', 23);
   expect(result).toBe('Pikachu dealt 23 damage!');
   expect(result).toMatch(/^Pikachu(.*)23/);
-  expect(result).toMatchInlineSnapshot(`"Pikachu dealt 23 damage!"`);
-
+  expect(result).toMatchInlineSnapshot('"Pikachu dealt 23 damage!"');
 });
