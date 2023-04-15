@@ -8,7 +8,7 @@ on:
       - main
 jobs:
   standard-checks: 
-    name: Lint and Test
+    name: Lint, Test and Vercel Deploy
     runs-on: ubuntu-latest
 
     steps:
