@@ -17,3 +17,6 @@ jobs:
 
       - name: Run Tests
         run: npm run ci:test
+
+      - name: Bundle and Output
+        run: npm run build
